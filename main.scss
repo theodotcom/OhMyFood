@@ -17,6 +17,14 @@ body{
     height: 3em;
     display: flex;
     align-items: center;
+    
+    &__image {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 .localisation{
@@ -26,19 +34,13 @@ body{
     justify-content: center;;
     color: #000000;
     background-color: #EAEAEA;
+
+    i{
+        margin-right: 1em;
+    }
 }
 
-.localisation i{
-    margin-right: 1em;
-}
 
-
-.logo__image{
-   width: 50%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
 
 .banner{
     display: flex;
@@ -48,13 +50,11 @@ body{
     background-color: #f2f2f2;
     padding: 20px 0px 20px 0px;
 
-}
+    p{
+        margin: -6px 0px 31px 0px;
+    }
 
-.banner p{
-    margin: -6px 0px 31px 0px;
-}
-
-.banner__button{
+    &__button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,37 +66,42 @@ body{
     border-radius: 30px;
     background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
     transition: box-shadow 150ms linear, transform 150ms linear;
-    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 30%);
     margin-bottom: 2em;
+    }
+
 }
+
+
 
 .steps{
     padding: 20px 20px 40px 20px;
-}
 
-.steps__choice{
-    width: 50%;
-   display: block;
-   margin-left: 5px;
-}
+    &__choice{
+        width: 50%;
+        display: block;
+        margin-left: 5px;
+    }
 
-.steps__container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    border-radius: 20px;
-    background: #F6F6F6;
-    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
-    margin-bottom: 1em;
-    width: 21em;
-    height: 4em;
+    &__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        background: #F6F6F6;
+        box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
+        margin-bottom: 1em;
+        width: 21em;
+        height: 4em;
     
+        i{
+        margin-right: 24px;
+        }
+    }
+
+
 }
 
-.steps__container i{
-    margin-right: 24px;
-}
 
 .number{
    display: flex;
