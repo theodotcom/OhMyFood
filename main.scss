@@ -1,6 +1,7 @@
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
+$green:$color-tertiary;
 
 body{
     font-family: "Roboto", sans-serif;
@@ -87,6 +88,7 @@ body{
         position: relative;
         border-radius: 20px;
         background: #F6F6F6;
+        box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
         margin-bottom: 1em;
         width: 21em;
         height: 4em;
