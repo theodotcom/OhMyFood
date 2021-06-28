@@ -276,7 +276,42 @@ h4{
         font-weight: 300;
         text-overflow: ellipsis;
     }
+    &__conf{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        transition-duration: 400ms;
+        transform: translateX(60px);
+        transform: translateX(0px);
+        
+        &__bg{
+            background-color: rgb(153, 226, 208);
+        }
+        
+        &__ic{
+            font-size: 1.3rem;
+        position: absolute;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        transition-duration: 400ms;
+        transform: rotate(360deg);
+        color: #FFFFFF;
+        }
+
+        }
+    
 }
+
+.plat :hover{
+    transform: translateX(0px);
+}
+
+
 
 .favorite{
     font-size: 1.5em;
