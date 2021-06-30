@@ -345,58 +345,66 @@ h4 {
   margin: 0;
   text-align: left;
   color: #000000;
-  font-size: 1.5em;
+}
+
+.plats p {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.plats h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 .plat {
-  margin-bottom: 12px;
-  padding: 12px;
-  border-radius: 15px;
-  background-color: #FFFFFF;
-}
-
-.plat__top {
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-
-.plat__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  text-overflow: ellipsis;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: .75rem;
+  margin: 1rem 0;
+  overflow: hidden;
+  max-width: 100%;
+  -webkit-box-shadow: 1px 3px 1px #aca9a9;
+          box-shadow: 1px 3px 1px #aca9a9;
 }
 
-.plat__desc {
-  font-size: 1rem;
-  font-weight: 300;
+.plat__top {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.plat__price {
+  margin-bottom: -20px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: .5rem;
 }
 
 .plat__conf {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  -webkit-transition-duration: 400ms;
-          transition-duration: 400ms;
-  -webkit-transform: translateX(60px);
-          transform: translateX(60px);
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-}
-
-.plat__conf__bg {
   background-color: #99e2d0;
-}
-
-.plat__conf__ic {
-  font-size: 1.3rem;
-  position: absolute;
-  top: 0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  height: 67px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,18 +414,10 @@ h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  height: 100%;
-  -webkit-transition-duration: 400ms;
-          transition-duration: 400ms;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  color: #FFFFFF;
 }
 
-.plat :hover {
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
+.plat:hover .plat__conf {
+  margin-right: -1rem;
 }
 
 .favorite {
@@ -456,7 +456,7 @@ h4 {
   transition: box-shadow 150ms linear, transform 150ms linear, -webkit-box-shadow 150ms linear, -webkit-transform 150ms linear;
 }
 
-h4 {
+h3 {
   font-family: "Shrikhand", cursive;
   font-style: italic;
   font-size: 1.85em;
@@ -464,5 +464,22 @@ h4 {
   margin: 0;
   text-align: left;
   color: #000000;
+}
+
+.icon--bg {
+  background-color: white;
+  border-radius: 100%;
+  height: 1.5em;
+  width: 1.5em;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
