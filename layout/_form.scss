@@ -52,12 +52,21 @@ body{
     
   }
 
+.main1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+}
+
 .logo{
     background-color: #FFFFFF;
     height: 3em;
     display: flex;
     align-items: center;
-    
+    box-shadow: 0 0 2px gray;
+    z-index: 1;
     &__image {
         width: 50%;
         display: block;
@@ -74,6 +83,7 @@ body{
     justify-content: center;;
     color: #000000;
     background-color: #EAEAEA;
+    width: 100%;
 
     i{
         margin-right: 1em;
@@ -130,6 +140,7 @@ body{
         margin-bottom: 1em;
         width: 21em;
         height: 4em;
+        box-shadow: 0.25rem 0.25rem 0.5rem rgba(0 0 0 0.2);
             i{
             margin-right: 24px;
             }
