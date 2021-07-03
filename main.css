@@ -15,8 +15,8 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-animation: loader 0.01s;
           animation: loader 0.01s;
-  -webkit-animation-delay: 1.75s;
-          animation-delay: 1.75s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   z-index: 10000;
@@ -82,6 +82,11 @@ body {
   background-color: #FFFFFF;
 }
 
+.main1 .logo {
+  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
 .logo {
   background-color: #FFFFFF;
   height: 3em;
@@ -91,8 +96,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 0 2px gray;
-          box-shadow: 0 0 2px gray;
   z-index: 1;
 }
 
@@ -139,7 +142,11 @@ body {
           align-items: center;
   text-align: center;
   background-color: #f2f2f2;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.banner h2 {
+  text-align: center;
 }
 
 .banner p {
@@ -197,8 +204,8 @@ body {
   margin-bottom: 1em;
   width: 21em;
   height: 4em;
-  -webkit-box-shadow: 0.25rem 0.25rem 0.5rem;
-          box-shadow: 0.25rem 0.25rem 0.5rem;
+  -webkit-box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .steps__container i {
@@ -360,10 +367,11 @@ footer h3 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #FFFFFF;
+  padding: 3px;
 }
 
 .bg-image {
-  height: 13em;
+  height: 17em;
 }
 
 .bg-image img {
@@ -411,7 +419,6 @@ footer h3 {
 }
 
 .menu-type {
-  margin-bottom: 1em;
   margin-left: 10px;
   font-weight: 200;
   font-size: 1rem;
@@ -453,8 +460,8 @@ h4 {
   margin: 1rem 0;
   overflow: hidden;
   max-width: 100%;
-  -webkit-box-shadow: 1px 3px 1px #aca9a980;
-          box-shadow: 1px 3px 1px #aca9a980;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   -webkit-animation: itemAppear .6s;
           animation: itemAppear .6s;
@@ -653,11 +660,8 @@ h3 {
   color: #000000;
   color: #FFFFFF;
   border-radius: 30px;
+  border-style: hidden;
   background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
-  -webkit-transition: -webkit-box-shadow 150ms linear, -webkit-transform 150ms linear;
-  transition: -webkit-box-shadow 150ms linear, -webkit-transform 150ms linear;
-  transition: box-shadow 150ms linear, transform 150ms linear;
-  transition: box-shadow 150ms linear, transform 150ms linear, -webkit-box-shadow 150ms linear, -webkit-transform 150ms linear;
 }
 
 body {
@@ -677,8 +681,8 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-animation: loader 0.01s;
           animation: loader 0.01s;
-  -webkit-animation-delay: 1.75s;
-          animation-delay: 1.75s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   z-index: 10000;
@@ -744,6 +748,11 @@ body {
   background-color: #FFFFFF;
 }
 
+.main1 .logo {
+  -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
 .logo {
   background-color: #FFFFFF;
   height: 3em;
@@ -753,8 +762,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 0 2px gray;
-          box-shadow: 0 0 2px gray;
   z-index: 1;
 }
 
@@ -801,7 +808,11 @@ body {
           align-items: center;
   text-align: center;
   background-color: #f2f2f2;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.banner h2 {
+  text-align: center;
 }
 
 .banner p {
@@ -859,8 +870,8 @@ body {
   margin-bottom: 1em;
   width: 21em;
   height: 4em;
-  -webkit-box-shadow: 0.25rem 0.25rem 0.5rem;
-          box-shadow: 0.25rem 0.25rem 0.5rem;
+  -webkit-box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .steps__container i {
@@ -1022,10 +1033,11 @@ footer h3 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #FFFFFF;
+  padding: 3px;
 }
 
 .bg-image {
-  height: 13em;
+  height: 17em;
 }
 
 .bg-image img {
@@ -1073,7 +1085,6 @@ footer h3 {
 }
 
 .menu-type {
-  margin-bottom: 1em;
   margin-left: 10px;
   font-weight: 200;
   font-size: 1rem;
@@ -1115,8 +1126,8 @@ h4 {
   margin: 1rem 0;
   overflow: hidden;
   max-width: 100%;
-  -webkit-box-shadow: 1px 3px 1px #aca9a980;
-          box-shadow: 1px 3px 1px #aca9a980;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   -webkit-animation: itemAppear .6s;
           animation: itemAppear .6s;

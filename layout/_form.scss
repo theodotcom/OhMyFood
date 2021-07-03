@@ -14,7 +14,7 @@ body{
     top: 0;
     background-color: rgba(255, 255, 255, 0.90);
     animation: loader 0.01s;
-    animation-delay: 1.75s;
+    animation-delay: 1.5s;
     animation-fill-mode: both;
     z-index: 10000;
     display:flex;
@@ -58,6 +58,9 @@ body{
         flex-direction: column;
         align-items: center;
         background-color: #FFFFFF;
+        .logo{
+            box-shadow: 0 0 0.5rem rgba(0,0,0,0.20);
+        }
 }
 
 .logo{
@@ -65,7 +68,7 @@ body{
     height: 3em;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 2px gray;
+    
     z-index: 1;
     &__image {
         width: 50%;
@@ -98,7 +101,11 @@ body{
     align-items: center;
     text-align: center;
     background-color: #f2f2f2;
-    padding: 20px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
+
+    h2{
+        text-align: center;
+    }
 
     p{
         margin: -6px 0px 31px 0px;
@@ -140,7 +147,7 @@ body{
         margin-bottom: 1em;
         width: 21em;
         height: 4em;
-        box-shadow: 0.25rem 0.25rem 0.5rem rgba(0 0 0 0.2);
+        box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.20);
             i{
             margin-right: 24px;
             }
@@ -257,10 +264,11 @@ footer{
     display: flex;
  align-items: center;
     background-color: #FFFFFF;
+    padding: 3px;
 }
 
 .bg-image{
-    height: 13em;
+    height: 17em;
     img{
         width: 100%;
     }
@@ -286,7 +294,6 @@ footer{
         margin-bottom: 2em;
     }
     &-type{
-        margin-bottom: 1em;
         margin-left: 10px;
         font-weight: 200;
         font-size: 1rem;
@@ -327,7 +334,7 @@ h4{
     margin: 1rem 0;
     overflow: hidden;
     max-width: 100%;
-    box-shadow: 1px 3px 1px #aca9a980;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.20);
     cursor: pointer;
     animation: itemAppear .6s;
     animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
