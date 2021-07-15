@@ -1,3 +1,11 @@
+.bt-back{
+    display: flex;
+    margin-left: 17px;
+    i{
+        color: black;
+    }
+}
+
 .button-container{
     display: flex;
     justify-content: center;
@@ -14,6 +22,65 @@
     color: #FFFFFF;
     border-radius: 30px;
     border-style: hidden;
-    background: linear-gradient(175deg,#FF79DA 10%, #9356DC 95%);
+    outline: none;
+    background: linear-gradient(180deg,#FF79DA 15%, #9356DC 85%);
 }
+
+
+
+
+
+
+.favorite{
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #000;
+    border-style: none;
+    outline: none;
+}
+
+.favorite:hover::before {
+    opacity: 1;
+}
+
+.favorite::before{
+    position: absolute;
+    opacity: 0;
+    transition: .8s;
+    content: "";
+    background: linear-gradient(0deg,#9356dc,#ff79da);
+}
+
+.fav{
+    transition-duration: .5s;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: lighten;
+}
+
+.favorite::before, .fav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.favorite:hover .fav__unselect {
+    opacity: 0;
+}
+
+.favorite:hover .fav__select {
+    opacity: 1;
+}
+
 
