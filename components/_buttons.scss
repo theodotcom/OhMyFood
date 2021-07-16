@@ -12,20 +12,35 @@
 }
 
 .button1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    z-index: 1;
     width: 220px;
     height: 50px;
-    text-align: center;
     color: #000000;
     color: #FFFFFF;
     border-radius: 30px;
     border-style: hidden;
     outline: none;
     background: linear-gradient(180deg,#FF79DA 15%, #9356DC 85%);
+    &:hover{
+        &::after{
+            opacity: 1;
+        }
+    }
+    &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg,$color-primary 15%, $color-secondary 85%);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 250ms;
 }
-
+}
 
 
 
