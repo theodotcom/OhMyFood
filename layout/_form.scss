@@ -3,7 +3,7 @@ body{
     font-size: 16px;
     margin: auto;
     color: #000000;
-    background-color: #F6F6F6;
+    background-color: #F6F6F6;      
 }
 
 .loader {
@@ -134,12 +134,16 @@ body{
 
 }
 
+.banner__button:hover{
+    background: linear-gradient(to top, #a16be0, #ff93e1);
+    box-shadow: 0px 0px 12px 0px rgba (0, 0, 0, 0.8);
+    outline: none;
 
+}
 
 .steps{
     padding: 20px 20px 40px 20px;
     &__choice{
-        width: 50%;
         display: block;
         margin-left: 5px;
     }
@@ -151,7 +155,7 @@ body{
         border-radius: 20px;
         background: #F6F6F6;
         margin-bottom: 1em;
-        width: 23em;
+        width: 100%;
         height: 4em;
         box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.20);
             i{
